@@ -1,0 +1,68 @@
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: #6D4C41; 
+    padding: 10px 15px;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    top: 100%;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eee;
+    font-weight: normal; 
+}
+
+
+/* the animation uhh function  */
+
+@keyframes dpanim {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* for dropdown uh hover and animation input  */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: dpanim 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #e8f5e9; 
+    color: #2e7d32;
+}
+
+
+
+
+
+/* yall understand this right? yall got it fr :) its ez, just uh functions then put in hover stuffs get it fr?*/
+/* yes birnar we understand thanks */
