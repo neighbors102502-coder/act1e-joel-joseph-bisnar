@@ -1,3 +1,14 @@
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,7 +27,7 @@ html {
   border-radius: 15px;
   padding: 25px;
   width: 300px;
-  color: #fff; 
+  color: #000000; 
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   transition: transform 0.3s ease;
 }
@@ -51,8 +62,10 @@ html {
   padding: 80px 10%;
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   border-top: 2px solid rgba(123, 182, 97, 0.3);
+  margin-top: -80px; 
+
 }
 
 #karst-detail {
@@ -103,3 +116,7 @@ html {
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
+
+/* uh this is same with natsci.css just combine or something. ill do it on sunday or monday busy tommorow -bisnar */
+/* i combined them forget natsci.css */
