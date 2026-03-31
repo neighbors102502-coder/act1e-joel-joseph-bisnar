@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/Philippine-Eagle-6_ALAIN-PASCUA_copyrighted-scaled.webp');
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
 .content {
     max-width: 800px;
     margin: 40px auto;
@@ -8,3 +19,116 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.natsc-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px;
+}
+
+
+
+.natsc-card:hover {
+  transform: translateY(-10px); 
+  border-color: #28471a; 
+}
+
+.natsc-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.natsc-card h3 {
+  font-family: 'Serif', Georgia, serif; 
+  color: #233d18; 
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.natsc-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  color: #000000; 
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.3s ease;
+}
+
+.natsc-card p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+
+
+.detail-section {
+  min-height: 100vh; 
+  padding: 80px 10%;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgba(123, 182, 97, 0.3);
+
+}
+
+#karst-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+#uplift-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#orogeny-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.detail-content h2 {
+  font-size: 3rem;
+  color: #2e5020;
+  margin-bottom: 30px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.text-block {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+/* uh this is same with natsci.css just combine or something. ill do it on sunday or monday busy tommorow -bisnar */
+/* i combined them forget natsci.css */
