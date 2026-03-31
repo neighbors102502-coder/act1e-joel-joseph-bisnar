@@ -1,21 +1,214 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url('../images/Philippine_Culture_and_H_Istory_5f73084fd9-Picsart-AiImageEnhancer.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.precol-body {
+  background-image: url('../images/pre-colonial-Philippine-family-1.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.col-body {
+  background-image: url('../images/1_kOQ9PzM_N4pD0_jTuAW4NQ.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.rev-body {
+  background-image: url('../images/tumblr_me9au9dbGs1rppiioo1_1280-scaled.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+.culher-body {
+  background-image: url('../images/The_Philippines_Celebrate_Love.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
 .content {
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 1050px;
+    margin: 130px auto;
     padding: 20px;
     background-color: #ffffff;
     background: rgba(255, 255, 255, 0.3); 
     backdrop-filter: blur(10px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: justify;
 }
 
-body {
-    margin: 0;
-    padding-top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/wp7520972-rice-farm-wallpapers.jpg');
-    background-size: cover;       
-    background-position: center; 
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
+
+.natsc-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px;
 }
+
+
+.natsc-card:hover {
+  transform: translateY(-10px); 
+  border-color: #325225; 
+}
+
+.natsc-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.natsc-card h3 {
+  font-family: 'Serif', Georgia, serif; 
+  color: #1c2b16; 
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.natsc-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  color: #000000; 
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.3s ease;
+}
+
+.natsc-card p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+
+
+
+
+
+.detail-section {
+  min-height: 100vh; 
+  padding: 80px 10%;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgba(123, 182, 97, 0.3);
+
+}
+
+
+
+
+#meteorology-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#trop-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#mount-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.detail-content h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.text-block {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.sci-intro {
+  padding: 30px 15%;
+  background: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  color: #000000;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.tags {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.intBox h2 {
+  font-family: 'Serif', Georgia, serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intBox p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  color: #000000;
+}
+
+.intBox strong {
+  color: #000000; /* darrker green to emphasize yk */
+}
+/* uh this is same with natsci.css just combine or something. ill do it on sunday or monday busy tommorow -bisnar */
+/* i combined them forget natsci.css */
