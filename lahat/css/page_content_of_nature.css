@@ -1,14 +1,15 @@
-<<<<<<< HEAD
 html {
   scroll-behavior: smooth;
 }
-
 body{
   background-image: url('../images/naturemain.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -52,19 +53,7 @@ body{
 
 
 
-=======
-body {
-    margin: 0;
-    padding-top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/wp7520972-rice-farm-wallpapers.jpg');
-    background-size: cover;       
-    background-position: center; 
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
-}
 
->>>>>>> 5a8548d0c23ab37616d9f2a88f4fc9362e7e8d0e
 .content {
     max-width: 800px;
     margin: 40px auto;
@@ -77,14 +66,12 @@ body {
 }
 
 
-
 .natsc-container {
   display: flex;
   justify-content: space-around;
   gap: 20px;
   padding: 40px;
 }
-
 
 
 .natsc-card:hover {
@@ -121,8 +108,6 @@ body {
   line-height: 1.6;
   font-size: 0.95rem;
 }
-
-
 
 
 
