@@ -1,13 +1,58 @@
-body {
-    margin: 0;
-    padding-top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/Philippine-Eagle-6_ALAIN-PASCUA_copyrighted-scaled.webp');
-    background-size: cover;       
-    background-position: center; 
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
+html {
+  scroll-behavior: smooth;
 }
+body{
+  background-image: url('../images/Philippine-Eagle-6_ALAIN-PASCUA_copyrighted-scaled.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.meteo-body {
+  background-image: url('../images/tecnalia-metereologia-clima-Picsart-AiImageEnhancer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.tect-body {
+  background-image: url('../images/san-andreas-fault-Picsart-AiImageEnhancer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.geo-body {
+  background-image: url('../images/Landforms-In-The-Philippines-Picsart-AiImageEnhancer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+.marsc-body {
+  background-image: url('../images/blue-your-mind-philippines-2023-Picsart-AiImageEnhancer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hydr-body {
+  background-image: url('../images/2017-credit-duncan-murrell-cleopatratrek-67-Picsart-AiImageEnhancer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+
 
 .content {
     max-width: 800px;
@@ -18,12 +63,9 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-   text-align: justify;
+    text-align: justify;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 .natsc-container {
   display: flex;
@@ -33,10 +75,9 @@ html {
 }
 
 
-
 .natsc-card:hover {
   transform: translateY(-10px); 
-  border-color: #28471a; 
+  border-color: #325225; 
 }
 
 .natsc-icon {
@@ -46,7 +87,7 @@ html {
 
 .natsc-card h3 {
   font-family: 'Serif', Georgia, serif; 
-  color: #233d18; 
+  color: #1c2b16; 
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -71,6 +112,9 @@ html {
 
 
 
+
+
+
 .detail-section {
   min-height: 100vh; 
   padding: 80px 10%;
@@ -81,7 +125,7 @@ html {
 
 }
 
-#karst-detail {
+#orogeny-detail {
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   background-size: cover;
   background-attachment: fixed; 
@@ -93,15 +137,37 @@ html {
   background-attachment: fixed;
 }
 
-#orogeny-detail {
+#karst-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+
+
+#meteorology-detail {
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   background-size: cover;
   background-attachment: fixed;
 }
 
+#trop-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#mount-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
 .detail-content h2 {
   font-size: 3rem;
-  color: #2e5020;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
@@ -130,6 +196,57 @@ html {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
+.image-block1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
+.image-block1 img {
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.sci-intro {
+  padding: 30px 15%;
+  background: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  color: #000000;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.tags {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.intBox h2 {
+  font-family: 'Serif', Georgia, serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intBox p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  color: #000000;
+}
+
+.intBox strong {
+  color: #000000; /* darrker green to emphasize yk */
+}
 /* uh this is same with natsci.css just combine or something. ill do it on sunday or monday busy tommorow -bisnar */
 /* i combined them forget natsci.css */
