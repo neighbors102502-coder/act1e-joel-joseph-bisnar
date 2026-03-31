@@ -56,13 +56,14 @@ body{
 
 .content {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 130px auto;
     padding: 20px;
     background-color: #ffffff;
     background: rgba(255, 255, 255, 0.3); 
     backdrop-filter: blur(10px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: justify;
 }
 
 
@@ -76,7 +77,7 @@ body{
 
 .natsc-card:hover {
   transform: translateY(-10px); 
-  border-color: #7BB661; 
+  border-color: #325225; 
 }
 
 .natsc-icon {
@@ -86,7 +87,7 @@ body{
 
 .natsc-card h3 {
   font-family: 'Serif', Georgia, serif; 
-  color: #7BB661; 
+  color: #1c2b16; 
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -166,7 +167,7 @@ body{
 
 .detail-content h2 {
   font-size: 3rem;
-  color: #7BB661;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
@@ -200,14 +201,14 @@ body{
   background: rgba(255, 255, 255, 0.3); 
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  color: #333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  color: #000000;
   text-align: center;
   max-width: 800px;
   margin: 40px auto;
 }
 
 .tags {
-  color: #7BB661;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -226,11 +227,11 @@ body{
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto 20px auto;
-  color: #555;
+  color: #000000;
 }
 
 .intBox strong {
-  color: #2D5A27; /* darrker green to emphasize yk */
+  color: #000000; /* darrker green to emphasize yk */
 }
 /* uh this is same with natsci.css just combine or something. ill do it on sunday or monday busy tommorow -bisnar */
 /* i combined them forget natsci.css */

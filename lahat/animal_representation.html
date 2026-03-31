@@ -10,15 +10,97 @@
     <link rel="stylesheet" href="css/page_content_of_animal.css">
 
 </head>
-<body>
+<body class="tect-body">
+
+<!-- scroll up button -->
+<button id="scrollTopBtn" onclick="scrollToTop()"><b>↑</b></button>
+<script src="scrollup.js"></script>
 
     <!-- main content -->
     <div class="content">
-        <h1>Philippine Geographic</h1>
-        <p>Philippine Geographic is a website dedicated to showcasing the rich biodiversity, culture, and history of the Philippines. Our mission is to educate and inspire people about the natural wonders and cultural heritage of our country. We provide in-depth articles, stunning photography, and engaging content that highlights the unique flora, fauna, landscapes, and traditions of the Philippines. Whether you're a nature enthusiast, a history buff, or simply curious about the beauty of our archipelago, Philippine Geographic is your go-to source for all things related to the Philippines.</p>
+        <h1 align="center">Philippine Animal: Representation</h1>
+    <div class="natsc-container">
+    <div class="natsc-card" onclick="location.href='#meteorology-detail'">
+    <div class="natsc-icon">🐃</div>
+    <h3>Carabao </h3>
+    <p>The carabao is a <strong>symbol of the Philippines' agricultural</strong> heritage and is often depicted in traditional art and folklore.</p> 
+   </div>
+
+    <div class="natsc-card" onclick="location.href='#trop-detail'">
+    <div class="natsc-icon">🦅</div>
+    <h3>Monkey-eating eagle</h3>
+    <p>The monkey-eating eagle is a <strong>symbol of the Philippines' rich biodiversity</strong> and is often featured in local legends and folklore.</p>
     </div>
 
-    <!-- header -->
+     <div class="natsc-card" onclick="location.href='#mount-detail'">
+    <div class="natsc-icon">🐊</div>
+    <h3>Baboy-ramo or buwaya</h3>
+    <p>The baboy-ramo or buwaya is a <strong>symbol of the Philippines' unique wildlife</strong> and is often depicted in traditional stories and art.</p>
+    </div>
+    </div>
+    </div>
+    
+    <!-- Detail Sections -->
+<div>
+    <section id="meteorology-detail" class="detail-section">
+    <div class="detail-content">
+        <h2>Carabao: The Agricultural Symbol</h2>
+        <div class="detail-grid">
+        <div class="text-block">
+            <P>Present in countless paintings, sculptures, and folk tales, the carabao is more than just a beast of burden; it is a cultural icon that embodies the resilience and hard work of the Filipino people. Often depicted plowing fields or pulling carts, the carabao symbolizes the nation's deep connection to its agricultural roots and the enduring spirit of its farmers. </P>
+            <P>Photos of carabaos in traditional settings, such as rice paddies or rural festivals, are common in Filipino art, reinforcing the animal's status as a beloved national symbol. The carabao's significance extends beyond its physical presence, representing the values of perseverance and community that are central to Filipino culture.</P>
+            <div>
+            Cultural Note: The carabao is celebrated annually in festivals like the "Carabao Festival" in Bulacan, where decorated carabaos parade through the streets, showcasing their importance in Filipino heritage.
+            </div>
+        </div>
+        <div class="image-block">
+            <img src="images/carabao-scaled.jpg" alt="Philippine Fault Lines and Trenches">
+        </div>
+        </div>
+    </div>
+    </section>
+    <section id="trop-detail" class="detail-section">
+    <div class="detail-content">
+        <h2>The Monkey-Eating Eagle</h2>
+        <div class="detail-grid">
+        <div class="image-block">
+            <img src="images/Philippine-Eagle-6_ALAIN-PASCUA_copyrighted-scaled.webp" alt="Philippine Fault Zone Map">
+        </div>
+        <div class="text-block">
+            <p>The Monkey-Eating Eagle is a majestic bird of prey found in the forests of the Philippines. It is known for its distinctive appearance and its unique hunting behavior.</p>
+            <p>Despite its name, the Monkey-Eating Eagle primarily feeds on a variety of animals, including monkeys, snakes, and birds. It is a symbol of the Philippines' rich biodiversity and is often featured in local legends and folklore.</p>
+            <div>
+            Cultural Note: The Monkey-Eating Eagle is the national bird of the Philippines and is considered a symbol of strength and freedom. It is also a critically endangered species, with conservation efforts underway to protect its habitat and ensure its survival.
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section id="mount-detail" class="detail-section">
+    <div class="detail-content">
+        <h2>Baboy-ramo or buwaya</h2>
+        <div class="detail-grid">
+        
+        
+        
+        </div>
+        <div class="image-block1">
+            <img src="images/buwaya.png" alt="">  
+            <div>
+                <h1 style="color: transparent;">                 erqwqweqwe</h1>
+            </div>
+            <img src="images/baboy-ramo.jpg" alt="Subduction Zones">
+        </div>
+                <div class="text-block">
+            <P>The Baboy-ramo or buwaya is a large crocodilian species found in the rivers and swamps of the Philippines. It is known for its robust build and powerful jaws, making it a formidable predator in its habitat.</P>
+            <P>The buwaya is a symbol of the Philippines' unique wildlife and is often depicted in traditional stories and art. It represents the untamed beauty of the country's natural environment and serves as a reminder of the importance of conservation efforts to protect these incredible creatures.</P>
+            <P>Cultural Note: In Filipino folklore, the buwaya is often portrayed as a cunning and dangerous creature, sometimes associated with greed and corruption. However, it also holds a place of respect in local culture, symbolizing the power and mystery of the natural world.</P>
+        </div>
+    </div>
+    </section>
+</div>
+
+        <!-- header -->
     <div class="header">
         <table class="table_1" border="0" cellspacing-left = "5px">
   
@@ -73,11 +155,12 @@
                 <div class="dropdown">
                     <a href="nature.html" class="dropbtn">Science & Nature</a>
                     <div class="dropdown-content">
-                        <a href="#">Geomorphology</a>
-                        <a href="#">Tectonics</a>
-                        <a href="#">Marine Science</a>
-                        <a href="#">Forest Hydrology</a>
-                        <a href="#">Meteorology</a>
+                        <a href="nature_geo.html">Geomorphology</a>
+                        <a href="nature_tect.html">Tectonics</a>
+                        <a href="nature_marsc.html">Marine Science</a>
+                        <a href="nature_hydr.html">Forest Hydrology</a>
+                        <a href="nature_meteo.html">Meteorology</a>
+
                     </div>
                 </div>
             </td>
@@ -85,7 +168,7 @@
         </tr> 
         </table>
     </div> 
-    
+
     <main>
     </main>
     <footer class="footer">
