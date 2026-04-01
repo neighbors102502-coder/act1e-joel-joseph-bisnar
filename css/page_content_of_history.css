@@ -145,13 +145,12 @@ body{
 .detail-content h2 {
   font-size: 3rem;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .detail-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: 10px;
 }
 .text-block {
   font-size: 1.1rem;
