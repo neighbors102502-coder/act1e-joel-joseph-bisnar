@@ -1,5 +1,3 @@
-
-
 // para mag top 0
 function scrollToTop() {
   window.scrollTo({
