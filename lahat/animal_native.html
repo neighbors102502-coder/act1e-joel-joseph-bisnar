@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/page_content_of_animal.css">
 
 </head>
-<body>
+<body class="tect-body">
 
 <!-- scroll up button -->
 <button id="scrollTopBtn" onclick="scrollToTop()"><b>↑</b></button>
@@ -18,11 +18,89 @@
 
     <!-- main content -->
     <div class="content">
-        <h1>Philippine Geographic</h1>
-        <p>Philippine Geographic is a website dedicated to showcasing the rich biodiversity, culture, and history of the Philippines. Our mission is to educate and inspire people about the natural wonders and cultural heritage of our country. We provide in-depth articles, stunning photography, and engaging content that highlights the unique flora, fauna, landscapes, and traditions of the Philippines. Whether you're a nature enthusiast, a history buff, or simply curious about the beauty of our archipelago, Philippine Geographic is your go-to source for all things related to the Philippines.</p>
-    </div>
+        <h1 align="center">Philippine Animal: Native Species</h1>
+    <div class="natsc-container">
+    <div class="natsc-card" onclick="location.href='#meteorology-detail'">
+    <div class="natsc-icon">🐾</div>
+    <h3>Philippine Tarsier </h3>
+<p>Known for its massive eyes and rotating head, this tiny primate is one of the oldest land species in the country.</p>   </div>
 
-    <!-- header -->
+    <div class="natsc-card" onclick="location.href='#trop-detail'">
+    <div class="natsc-icon">🐃</div>
+    <h3>Tamaraw </h3>
+<p>Often called the Mindoro dwarf buffalo, this is the only bovine species endemic to the Philippines. </p>    </div>
+
+     <div class="natsc-card" onclick="location.href='#mount-detail'">
+    <div class="natsc-icon">🐊</div>
+    <h3>Mindoro crocodile</h3>
+<p>The Mindoro crocodile is a critically endangered species found only in the Mindoro island of the Philippines.</p>    </div>
+    </div>
+    </div>
+    
+    <!-- Detail Sections -->
+<div>
+    <section id="meteorology-detail" class="detail-section">
+    <div class="detail-content">
+        <h2>Philippine Tarsier: The Tiny Primate</h2>
+        <div class="detail-grid">
+        <div class="text-block">
+<p>The Philippine Tarsier is a small, nocturnal primate found only in the Philippines. It is known for its large eyes and ability to rotate its head 180 degrees.</p>            
+<p>
+The tarsier is a symbol of the Philippines' unique biodiversity and is often featured in local legends and folklore. It represents the country's rich natural heritage and serves as a reminder of the importance of conservation efforts to protect these incredible creatures.</p>
+</p>
+<div>
+    Cultural Note: The Philippine Tarsier is often associated with superstitions and folklore in local culture. It is believed to have mystical powers and is sometimes considered a guardian spirit of the forests where it resides.</div>
+</div>
+        
+        <div class="image-block">
+            <img src="images/tarsier.webp" alt="Philippine Fault Lines and Trenches">
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="trop-detail" class="detail-section">
+    <div class="detail-content">
+        <h2>Tamaraw</h2>
+        <div class="detail-grid">
+        <div class="image-block">
+<img src="images/tamaraw.webp" alt="">        </div>
+        <div class="text-block">
+<p>The Tamaraw is a small, sturdy bovine species found only in the forests of Mindoro, Philippines. It is known for its distinctive appearance and is considered a symbol of the country's unique biodiversity.</p>
+            <p>Despite its name, the Tamaraw primarily feeds on a variety of plants and grasses. It is a symbol of the Philippines' rich biodiversity and is often featured in local legends and folklore.</p>
+            <div>
+ It is much smaller than the common carabao and is found exclusively on the island of Mindoro.            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <section id="mount-detail" class="detail-section">
+    <div class="detail-content">
+        <h2>Mindoro crocodile</h2>
+        <div class="detail-grid">
+        <div class="image-block1">
+            <img src="images/buwaya.png" alt="">  
+         
+        </div>
+                <div class="text-block">
+<p>
+The Mindoro crocodile is a critically endangered species found only in the Mindoro island of the Philippines. It is known for its robust build and powerful jaws, making it a formidable predator in its habitat.</p>
+</p>            <p>
+The Mindoro crocodile is a symbol of the Philippines' unique wildlife and is often depicted in traditional stories and art. It represents the untamed beauty of the country's natural environment and serves as a reminder of the importance of conservation efforts to protect these incredible creatures.</p>
+</p>
+            <p>
+Cultural Note: In Filipino folklore, the Mindoro crocodile is often portrayed as a cunning and dangerous creature, sometimes associated with greed and corruption. However, it also holds a place of respect in local culture, symbolizing the power and mystery of the natural world.</p>
+            </p>
+        </div>
+    </div>
+    </section>
+</div>
+
+        <!-- header -->
     <div class="header">
         <table class="table_1" border="0" cellspacing-left = "5px">
   
@@ -32,7 +110,7 @@
                 <div class="dropdown">
                     <a href="animal.html" class="dropbtn">Animal</a>
                     <div class="dropdown-content">
-                        <a href="animal_nationality.html">National Animals</a>
+                                                <a href="animal_extinct.html">Extinct Animals</a>
                         <a href="animal_native.html">Native Species</a>
                         <a href="animal_representation.html">Representation</a>
                     </div>
@@ -74,11 +152,12 @@
                 <div class="dropdown">
                     <a href="nature.html" class="dropbtn">Science & Nature</a>
                     <div class="dropdown-content">
-                        <a href="#">Geomorphology</a>
-                        <a href="#">Tectonics</a>
-                        <a href="#">Marine Science</a>
-                        <a href="#">Forest Hydrology</a>
-                        <a href="#">Meteorology</a>
+                        <a href="nature_geo.html">Geomorphology</a>
+                        <a href="nature_tect.html">Tectonics</a>
+                        <a href="nature_marsc.html">Marine Science</a>
+                        <a href="nature_hydr.html">Forest Hydrology</a>
+                        <a href="nature_meteo.html">Meteorology</a>
+
                     </div>
                 </div>
             </td>
@@ -86,7 +165,7 @@
         </tr> 
         </table>
     </div> 
-    
+
     <main>
     </main>
     <footer class="footer">
