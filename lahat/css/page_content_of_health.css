@@ -1,21 +1,201 @@
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/health.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+.disease {
+    background-image: url('../images/disease.avif');
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+.dept {
+    background-image: url('../images/dept.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+.program {
+    background-image: url('../images/prog.jpg');
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+.sci-intro {
+  padding: 30px 15%;
+  background: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  color: #000000;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+}
+.tags {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+.intBox h2 {
+  font-family: 'Serif', Georgia, serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intBox p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  color: #000000;
+}
+
+.sub-content {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 35vh;
+}
+
 .content {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 130px auto;
     padding: 20px;
     background-color: #ffffff;
     background: rgba(255, 255, 255, 0.3); 
     backdrop-filter: blur(10px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: justify;
 }
 
-body {
-    margin: 0;
-    padding-top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/wp7520972-rice-farm-wallpapers.jpg');
-    background-size: cover;       
-    background-position: center; 
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
+.sub-content {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 35vh;
+}
+
+.natsc-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.natsc-card:hover {
+  transform: translateY(-10px); 
+  border-color: #325225; 
+}
+
+.natsc-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.natsc-card h3 {
+  font-family: 'Serif', Georgia, serif; 
+  color: #1c2b16; 
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.natsc-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  color: #000000; 
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.3s ease;
+}
+
+.natsc-card p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.detail-section {
+  min-height: 100vh; 
+  padding: 80px 10%;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgba(123, 182, 97, 0.3);
+
+}
+
+#orogeny-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+#uplift-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#karst-detail {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+.detail-section {
+  min-height: 100vh; 
+  padding: 80px 10%;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-top: 2px solid rgba(123, 182, 97, 0.3);
+}
+
+.detail-content h2 {
+  font-size: 3rem;
+  color: #7BB661;
+  margin-bottom: 30px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.text-block {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
